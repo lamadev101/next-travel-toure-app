@@ -1,8 +1,10 @@
-import React from 'react'
+import { Banner } from "@/components"
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
+    <main>
+      <Banner/>
+    </main>
   )
 }
 
