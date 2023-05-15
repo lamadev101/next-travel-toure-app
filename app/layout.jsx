@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <ClientOnly>
           <Navbar/>
         </ClientOnly>
-        <div>
+        <div className="">
         {children}
         </div>
       </body>

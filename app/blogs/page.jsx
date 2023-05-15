@@ -1,8 +1,10 @@
-import React from 'react'
+import { Banner } from '@/components'
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <main>
+      <Banner/>
+    </main>
   )
 }
 
