@@ -1,65 +1,59 @@
+import Image from 'next/image'
 import React from 'react'
+import {BsStopwatch} from 'react-icons/bs'
 
 const PackageCard = () => {
   return (
-    <div className='py-14'> 
-      <div className='bg-[url(https://images.pexels.com/photos/1687678/pexels-photo-1687678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)]
-      bg-center p-24 h-96 w-full bg-cover'>
-      <h1 className='text-center  text-teal-50 text-bold text-6xl py-10'>
+   
       
-        Tour Package
-       
-      </h1>
-      </div>
-      <div className=' grid grid-cols-3 justify-items-center py-10 px-10 '>
-      <div className='py-12 px-12 rounded-lg overflow-hidden shadow-lg max-w-sm '>
-     <img  
-     
-     src="https://images.pexels.com/photos/2499699/pexels-photo-2499699.jpeg?auto=compress&cs=tinysrgb&w=800" 
-     alt=" Bali " 
-     className='w-full' />
-     <div>
+     < div  className='bg-white w-[300px]'>
       
-     </div>
-     <div className=' py-4 font-bold'>
-      <p>Etiam placerat dictum consequat an Pellentesque habitant morbi. </p>
-    </div>
-     <div className=' grid grid-cols-2 '>
-     <button className='border-2 border-red-500 px-2 py-1 rounded-md' > Book now</button>
-     <div>
-     <p className='px-2'>Full</p>
-     <p className='text-red-500 font-bold'>58$</p>
-     <p>per Person</p>
-     </div>
+        <div className='relative mb-4  '>
+        <img  
+     
+     src="//images.pexels.com/photos/2902939/pexels-photo-2902939.jpeg?auto=c"
+      alt=" nepal " 
+      className='w-full rounded-md h-[200px] object-cover'
+      />
+          
+      
+
+          <div className='bg-orange-500 px-5 py-2 w-[max-content ] absolute -bottom-2 left-8 flex items-center gap-2'>
+              <BsStopwatch/>
+            
+
+          <span>
+
+         3 Days 2 Night
+          </span>
+
+          </div>
+          </div>
+          <div>
+            <p className='px-4 py-2 font-bold'>Mount Everest </p>
+            
+          </div>
+
+          <div className=' flex px-4 pb-4'>
+            <button className='border-2 border-red-500 px-2 py-1 rounded-md' > Book now</button>
+            <div>
+
+              <div className='px-5'> From</div>
+              <div >
+
+                <span className='font-bold text-orange-500 px-5' >60$</span>
+                Per Person
+              </div>
+
+            </div>
 
 
-     
-     </div>
-      </div>
-      <div className='py-10 px-10 rounded overflow-hidden shadow-lg max-w-sm'>
-     <img  
-     
-     src="https://images.pexels.com/photos/2499699/pexels-photo-2499699.jpeg?auto=compress&cs=tinysrgb&w=800" 
-     alt=" Bali " 
-     className='w-full' />
-     <div grid grid-cols-2 justify-items-center>
-     <button className='border-2 border-blue-400 px-2 py-1 rounded-md' > Book now</button>
-     </div>
-     
-      </div>
-      <div className='py-10 px-10 rounded overflow-hidden shadow-lg max-w-sm'>
-     <img  
-     
-     src="https://images.pexels.com/photos/2499699/pexels-photo-2499699.jpeg?auto=compress&cs=tinysrgb&w=800" 
-     alt=" Bali " 
-     className='w-full' />
-     <button className='border-2 border-blue-400 px-2 py-1 rounded-md' > Book now</button>
-     
-      </div>
+
+          </div>
       </div>
 
-    
-    </div>
+
+  
   )
 }
 
