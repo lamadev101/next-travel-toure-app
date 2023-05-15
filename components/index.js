@@ -5,11 +5,12 @@ import Footer from "./footer/Footer"
 import Container from "./Container"
 import Loader from "./Loader"
 
+import PackageCardDemo from "./card/PackageCardDemo"
 import CategoryItemCard from "./card/CategoryItemCard"
 import DestinationCard from "./card/DestinationCard"
 import PackageCard from "./card/PackageCard"
 
 export {
   Navbar, Banner, ClientOnly, Footer, Container, Loader,
-  CategoryItemCard, DestinationCard, PackageCard,
+  CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo,
 }
