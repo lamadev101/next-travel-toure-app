@@ -3,7 +3,7 @@ import { Banner } from '@/components'
 const Blog = () => {
   return (
     <main>
-      <Banner/>
+      <Banner />
     </main>
   )
 }
