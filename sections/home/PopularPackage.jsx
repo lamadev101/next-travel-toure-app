@@ -17,13 +17,12 @@ const PopularPackage = () => {
       </div>
 
       {/* popular pakages */}
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-3 gap-8">
         {Packages.map(item=>{
           return(
-            <PackageCardDemo 
-              key={item.id}
-              {...item}
-            />
+            <div key={item.id}>
+              <PackageCardDemo {...item}/>
+            </div>
           )
         })}
       </div>

@@ -1,18 +1,26 @@
 import Image from 'next/image'
 
-const img
-= "https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg"
+const img= "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+import {HiChevronDoubleRight} from 'react-icons/hi'
 
 const Banner = () => {
   return (
-    <div>
-      <Image
+    <div className="relative">
+      <img
         src={img}
         alt="Pexels"
         width="100"
         height="100"
         className="object-cover w-full h-[400px]"
       />
+      <div className="w-full h-full bg-black opacity-40 hover:opacity-60 absolute top-0 left-0">
+        <div>
+          <h1>Destination</h1>
+          <div>
+            Home <HiChevronDoubleRight/> Destination
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

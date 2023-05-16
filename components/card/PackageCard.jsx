@@ -8,11 +8,11 @@ const PackageCard = ({ img, title, duration, price }) => {
 
       <div className='relative mb-4  '>
         <img
-         src={img}
+          src={img}
           alt=" place image "
           className='w-full rounded-md h-[200px] object-cover'
         />
- <div className='bg-orange-500 px-5 py-2 w-[max-content ] absolute -bottom-2 left-8 flex items-center gap-2 text-white'>
+        <div className='bg-orange-500 px-5 py-2 w-[max-content ] absolute -bottom-2 left-8 flex items-center gap-2 text-white'>
           <BsStopwatch />
           <span>
             {duration}

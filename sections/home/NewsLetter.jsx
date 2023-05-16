@@ -4,30 +4,24 @@ import Image from "next/image"
 
 const NewsLetter = () => {
   return (
-    <section className="px-8 relative">
-      {/* <Image
-        src="https://images.unsplash.com/photo-1488085061387-422e29b40080?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
-        alt="bg image"
-        width="100"
-        height="100"
-        className="sticky w-full h-[450px] object-cover"
-      /> */}
-      <div className="flex items-center flex-2">
+    <section className="newsLetterBg p-20" >
+      <div className="flex flex-2 items-center">
         <div className="flex-1">
-          <h1 className="font-bold text-[80px] ">SUBSCRIBE OUR</h1>
-          <h1>NEWSLETTER</h1>
-          <p>Sign up to receive the best offers on promotion and coupons. Don’t worry! It’s not Spam</p>
-          <div>
-            <input type="email" />
-            <button>SUBCRIBE</button>
+          <h1 className="font-bold text-white text-3xl">SUBSCRIBE OUR</h1>
+          <h2 className="text-orange-500 text-3xl font-bold">NEWSLETTER</h2>
+          <p className="max-w-[400px]">Sign up to receive the best offers on promotion and coupons. Don’t worry! It’s not Spam</p>
+          <div className="bg-white h-[80px]">
+            <input type="email" className="h-full w-80" />
+            <button className="w-20">SUBCRIBE</button>
           </div>
         </div>
-        <div className="gird grid-cols-4 flex-1">
+        <div className="grid grid-cols-3 gap-4 flex-1 py-20">
           {Featurelist.map(item => (
-              <FeatureCard
-                key={item.id}
+              <div key={item.id}>
+                <FeatureCard
                 {...item}
               />
+              </div>
             )
           )}
         </div>

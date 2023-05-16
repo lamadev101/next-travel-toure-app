@@ -102,19 +102,7 @@ export const Featurelist = [
     icon: <GiBarbedStar/>
   },
   {
-    id: 5,
-    title: "Best Mountains",
-    count: 16,
-    icon: <GiMountains/>
-  },
-  {
-    id: 6,
-    title: "Years Experience",
-    count: 3,
-    icon: <GiBarbedStar/>
-  },
-  {
-    id: 7,
+    id: 4,
     title: "Best Mountains",
     count: 16,
     icon: <GiMountains/>
