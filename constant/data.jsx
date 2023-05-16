@@ -108,3 +108,62 @@ export const Featurelist = [
     icon: <GiMountains/>
   }
 ]
+export const DestinationItems=[
+
+{
+  id:1,
+  img:" https://images.unsplash.com/photo-1610997686651-98492fd08108?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80",
+  place:"Pokhara"
+  
+
+},
+{
+  id:2,
+  img:" https://images.unsplash.com/photo-1610997686651-98492fd08108?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80",
+  place:"Pokhara"
+  
+
+},
+{
+  id:3,
+  img:" https://images.unsplash.com/photo-1610997686651-98492fd08108?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80",
+  place:"Pokhara"
+  
+
+},
+{
+  id:4,
+  img:" https://images.unsplash.com/photo-1610997686651-98492fd08108?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80",
+  place:"Pokhara"
+  
+
+},
+{
+  id:5,
+  img:" https://images.unsplash.com/photo-1610997686651-98492fd08108?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80",
+  place:"Pokhara"
+  
+
+},
+{
+  id:6,
+  img:" https://images.unsplash.com/photo-1610997686651-98492fd08108?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80",
+  place:"Pokhara"
+  
+
+},
+{
+  id:7,
+  img:" https://images.unsplash.com/photo-1610997686651-98492fd08108?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80",
+  place:"Pokhara"
+  
+
+},
+
+
+
+
+
+
+
+]
