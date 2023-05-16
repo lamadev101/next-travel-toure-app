@@ -12,9 +12,10 @@ import PackageCardDemo from "./card/PackageCardDemo"
 import CategoryItemCard from "./card/CategoryItemCard"
 import DestinationCard from "./card/DestinationCard"
 import PackageCard from "./card/PackageCard"
+import FeatureCard from "./card/FeatureCard"
 
 export {
   Navbar, Banner, ClientOnly, Footer, Container, Loader, Heading,
-  CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo,
+  CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo, FeatureCard,
   Button,
 }

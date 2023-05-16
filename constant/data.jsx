@@ -77,3 +77,46 @@ export const Packages = [
     price: "24"
   },
 ]
+
+import {BiPaperPlane} from 'react-icons/bi'
+import {MdAddLocationAlt} from 'react-icons/md'
+import {GiBarbedStar, GiMountains} from 'react-icons/gi'
+
+export const Featurelist = [
+  {
+    id: 1,
+    title: "Aweome Tour",
+    count: 500,
+    icon: <BiPaperPlane/>
+  },
+  {
+    id: 2,
+    title: "New Destination",
+    count: 300,
+    icon: <MdAddLocationAlt/>
+  },
+  {
+    id: 3,
+    title: "Years Experience",
+    count: 3,
+    icon: <GiBarbedStar/>
+  },
+  {
+    id: 5,
+    title: "Best Mountains",
+    count: 16,
+    icon: <GiMountains/>
+  },
+  {
+    id: 6,
+    title: "Years Experience",
+    count: 3,
+    icon: <GiBarbedStar/>
+  },
+  {
+    id: 7,
+    title: "Best Mountains",
+    count: 16,
+    icon: <GiMountains/>
+  }
+]

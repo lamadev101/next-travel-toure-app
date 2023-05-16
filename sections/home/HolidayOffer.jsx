@@ -1,8 +1,15 @@
-import { Container } from "@/components"
+import { Heading } from "@/components"
 
 const HolidayOffer = () => {
   return (
-    <div>HolidayOffer</div>
+    <section>
+      <div>
+        <Heading
+          title="Choose Holiday Offer"
+          subtitle="Explore and select from a variety of enticing holiday offers for your perfect getaway and memorable vacation."
+        />
+      </div>
+    </section>
   )
 }
 
