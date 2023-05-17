@@ -246,3 +246,24 @@ export const PackageQuickInfo = [
     icon: <FaUser/>
   }
 ]
+export const TourItems=[
+  {
+    id:1,
+    img:"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
+    name:" Lalisa Grey"
+    
+  },
+  {
+    id:2,
+    img:"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
+    name:" Lalisa Grey"
+    
+  },
+  {
+    id:3,
+    img:"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
+    name:" Lalisa Grey"
+    
+  },
+ 
+]

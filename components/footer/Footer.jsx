@@ -1,6 +1,8 @@
-import { FaInstagram } from "react-icons/fa"
+import { FaInstagram, FaLinkedin } from "react-icons/fa"
 import { FaFacebook } from "react-icons/fa"
 import { FaTwitter } from "react-icons/fa"
+import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi"
+
 
 
 
@@ -10,17 +12,18 @@ const Footer = () => {
     <footer className="" >
       <div className=" flex md:flex-row flex-col justify-around items-start bg-gray-600 p-20">
         <div className=" py-10">
-          <h1 className="font-bold text-4xl text-white" >Follow Us On:</h1>
+          <h1 className="font-bold text-3xl text-white" >Follow Us On:</h1>
           <div className="flex gap-5 py-5 ">
       
-            <FaInstagram className="text-2xl cursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1" />
-            <FaTwitter className="text-2*l cursor-pointer hover:text-black  bg-orange-600" />
-            <FaFacebook className="text-2*l cursor-pointer hover:text-black  bg-orange-600" />
+            <FaInstagram className="  text-2xlcursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1" />
+            <FaTwitter className=" cursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1 text-2pxl" />
+            <FaFacebook className="  text-2pxl cursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1" />
+            <FaLinkedin className="  text-2pxl cursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1" />
 
           </div>
         </div>
         <div className="text-white">
-          <h1 className="font-bold ">Quick Link</h1>
+          <h1 className="font-bold  text-4xl">Quick Link</h1>
           <div>
             <ul>
 
@@ -36,7 +39,7 @@ const Footer = () => {
         </div>
         <div className="text-white">
           
-          <h1 className="font-bold ">Tour Type</h1>
+          <h1 className="font-bold text-4xl">Tour Type</h1>
           <div >
             <ul>
 
@@ -50,10 +53,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" flex md:flex-row flex-col justify-around items-start font-bold bg-gray-700 text-white p-4" >
-        <h1 > Contact Us </h1>
-        <h1> 0145667600</h1>
-        <h1> travelwithNF@gmail.com</h1>
+      <div className="  flex md:flex-row flex-col justify-around items-center font-bold bg-gray-700 text-white p-4" >
+        <h1 className="text-3xl"  >  Contact Us : </h1>
+        <div  className="flex items-center">  
+      <HiOutlinePhone/>
+      <span>
+        
+          0145667600
+      </span>
+          </div >
+        <div className="flex items-center"> 
+          < HiOutlineMail className=""/>
+          
+          stravelwithNF@gmail.com 
+            </div>
         
 
       </div>
