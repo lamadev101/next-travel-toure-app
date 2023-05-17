@@ -1,22 +1,25 @@
-import { FaInstagram } from "react-icons/fa"
-import { FaFacebook } from "react-icons/fa"
-import { FaTwitter } from "react-icons/fa"
-
-
-
+import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa"
+import { IconBtn } from ".."
 
 const Footer = () => {
   return (
     <footer className="" >
-      <div className=" flex md:flex-row flex-col justify-around items-start bg-gray-600 p-20">
+      <div className=" flex md:flex-row flex-col justify-around items-start bg-gray-800 p-20">
         <div className=" py-10">
-          <h1 className="font-bold text-4xl text-white" >Follow Us On:</h1>
+          <h1 className="font-bold text-3xl text-white" >Follow Us On:</h1>
           <div className="flex gap-5 py-5 ">
-      
-            <FaInstagram className="text-2xl cursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1" />
-            <FaTwitter className="text-2*l cursor-pointer hover:text-black  bg-orange-600" />
-            <FaFacebook className="text-2*l cursor-pointer hover:text-black  bg-orange-600" />
-
+            <IconBtn
+              link="https://github.com/"
+              icon = {<FaFacebook/>}
+            />
+            <IconBtn
+              link="https://github.com/"
+              icon = {<FaInstagram/>}
+            />
+            <IconBtn
+              link="https://github.com/"
+              icon = {<FaTwitter/>}
+            />
           </div>
         </div>
         <div className="text-white">
@@ -51,11 +54,9 @@ const Footer = () => {
         </div>
       </div>
       <div className=" flex md:flex-row flex-col justify-around items-start font-bold bg-gray-700 text-white p-4" >
-        <h1 > Contact Us </h1>
+        <h1 >Contact Us </h1>
         <h1> 0145667600</h1>
         <h1> travelwithNF@gmail.com</h1>
-        
-
       </div>
       <div className="flex md:flex-row flex-col justify-around items-start  p-5 bg-gray-800 text-white font-semibold">
         <h1 className="text-white py-5">Copyright 2023 FNTravels </h1>
