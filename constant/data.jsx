@@ -179,7 +179,8 @@ export const DestinationItems = [
   },
 ]
 
-import {FaHeart, FaMountain, FaRegKiss, FaUmbrellaBeach, FaUser, FaUsers} from 'react-icons/fa'
+import {FaClock, FaHeart, FaMountain, FaRegKiss, FaUmbrellaBeach, FaUser, FaUsers} from 'react-icons/fa'
+import {GiFootprint} from 'react-icons/gi'
 
 export const CategoryList = [
   {
@@ -216,5 +217,32 @@ export const CategoryList = [
     id: 7, 
     title: "Mountain Tour",
     icon: <FaMountain/>
+  }
+]
+
+export const PackageQuickInfo = [
+  {
+    id: 1, 
+    title: "Duration",
+    subtitle: "4 days",
+    icon: <FaClock/>
+  },
+  {
+    id: 2, 
+    title: "Tour Type",
+    subtitle: "Daily Tour",
+    icon: <GiFootprint/>
+  },
+  {
+    id: 3,
+    title: "Group Size",
+    subtitle: "30 people",
+    icon: <FaUsers/>
+  },
+  {
+    id: 4,
+    title: "Tour Guide",
+    subtitle: "5 people",
+    icon: <FaUser/>
   }
 ]
