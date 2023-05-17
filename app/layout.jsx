@@ -1,4 +1,4 @@
-import { ClientOnly, Navbar } from '@/components'
+import { ClientOnly, Footer, Navbar } from '@/components'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { CategoryModal } from '@/modals'
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
         <div className="">
         {children}
         </div>
+        <Footer/>
       </body>
     </html>
   )
