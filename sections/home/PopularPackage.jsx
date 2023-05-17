@@ -11,7 +11,7 @@ const PopularPackage = () => {
         />
         <Button
           label="View All Tour"
-          link="/view-all-tour"
+          link="/package"
           border
         />
       </div>

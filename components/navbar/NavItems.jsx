@@ -15,7 +15,8 @@ const NavItems = () => {
           <MenuItem
             key={link}
             label={label}
-            onClick={()=> router.push(link)}
+            // onClick={()=> router.push(link)}
+            link={link}
           />
         )
       })}

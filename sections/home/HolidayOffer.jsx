@@ -1,4 +1,4 @@
-import { Heading, PackageCardDemo } from "@/components"
+import { Button, Heading, PackageCardDemo } from "@/components"
 import { Packages } from "@/constant/data"
 
 const HolidayOffer = () => {
@@ -21,7 +21,12 @@ const HolidayOffer = () => {
           )
         })}
       </div>
-
+      <div className="flex items-center justify-center">
+        <Button
+          lable="Load More Offers"
+          link="/load-more"
+        />
+      </div>
     </section>
   )
 }

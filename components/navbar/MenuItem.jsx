@@ -1,12 +1,15 @@
+import Link from "next/link"
 
-const MenuItem = ({label, onClick}) => {
+const MenuItem = ({ label, link }) => {
   return (
-    <div
-      onClick={onClick}
-      className="cursor-pointer hover:text-orange-500 font-semibold"
-    >
-      {label}
-    </div>
+    <Link href={link}>
+      <div
+        // onClick={onClick}
+        className="cursor-pointer hover:text-orange-500 font-semibold"
+      >
+        {label}
+      </div>
+    </Link>
   )
 }
 
