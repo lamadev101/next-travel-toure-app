@@ -1,13 +1,13 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link"
 
-export const IconBtn = ({link,icon}) => {
+const IconBtn = ({icon, link}) => {
   return (
-    <Link  href={link}>
-      <button className="text-2xl cursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1" >
+    <Link href={link}>
+      <button className="text-2xl cursor-pointer hover:text-orange-500 hover:border hover:border-orange-600 bg-orange-600 hover:bg-gray-800 text-white  rounded-full p-2" >
         {icon}
-
       </button>
     </Link>
   )
 }
+
+export default IconBtn

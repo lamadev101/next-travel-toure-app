@@ -21,9 +21,9 @@ const HolidayOffer = () => {
           )
         })}
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center mt-6">
         <Button
-          lable="Load More Offers"
+          label="Load More Offers"
           link="/load-more"
         />
       </div>

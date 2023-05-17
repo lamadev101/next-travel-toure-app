@@ -1,25 +1,25 @@
-import { FaInstagram, FaLinkedin } from "react-icons/fa"
-import { FaFacebook } from "react-icons/fa"
-import { FaTwitter } from "react-icons/fa"
-import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi"
-
-
-
-
+import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa"
+import { IconBtn } from ".."
 
 const Footer = () => {
   return (
     <footer className="" >
-      <div className=" flex md:flex-row flex-col justify-around items-start bg-gray-600 p-20">
+      <div className=" flex md:flex-row flex-col justify-around items-start bg-gray-800 p-20">
         <div className=" py-10">
           <h1 className="font-bold text-3xl text-white" >Follow Us On:</h1>
           <div className="flex gap-5 py-5 ">
-      
-            <FaInstagram className="  text-2xlcursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1" />
-            <FaTwitter className=" cursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1 text-2pxl" />
-            <FaFacebook className="  text-2pxl cursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1" />
-            <FaLinkedin className="  text-2pxl cursor-pointer hover:text-black hover:border-[1px] hover:border-orange-600   hover:bg-none bg-orange-600 text-white  rounded-full p-1" />
-
+            <IconBtn
+              link="https://github.com/"
+              icon = {<FaFacebook/>}
+            />
+            <IconBtn
+              link="https://github.com/"
+              icon = {<FaInstagram/>}
+            />
+            <IconBtn
+              link="https://github.com/"
+              icon = {<FaTwitter/>}
+            />
           </div>
         </div>
         <div className="text-white">

@@ -246,24 +246,21 @@ export const PackageQuickInfo = [
     icon: <FaUser/>
   }
 ]
-export const TourItems=[
+
+export const TourGuideList = [
   {
-    id:1,
-    img:"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
-    name:" Lalisa Grey"
-    
+    id: 1,
+    pic: "https://images.unsplash.com/photo-1607639106901-28314a0a622e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGltcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    name: "Jonny Smith"
   },
   {
-    id:2,
-    img:"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
-    name:" Lalisa Grey"
-    
+    id: 2,
+    pic: "https://images.unsplash.com/photo-1607195154396-abce3f65c3ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGltcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    name: "Adwin Biden"
   },
   {
-    id:3,
-    img:"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
-    name:" Lalisa Grey"
-    
-  },
- 
+    id: 3,
+    pic: "https://images.unsplash.com/photo-1610888893825-91a0444e7fec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGltcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    name: "Deepika DC"
+  }
 ]

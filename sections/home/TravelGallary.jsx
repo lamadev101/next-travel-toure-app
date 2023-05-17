@@ -1,4 +1,5 @@
-import { Container, Heading } from "@/components"
+import { Heading, ImageCard } from "@/components"
+import { Packages } from "@/constant/data"
 
 const TravelGallary = () => {
   return (
@@ -9,6 +10,15 @@ const TravelGallary = () => {
           subtitle="Explore our captivating Travel Gallery filled with breathtaking images and discover your next destination through stunning visuals."
           pos
         />
+      </div>
+      {/* Image Gallary */}
+      <div className="grid grid-cols-3 gap-2">
+        {Packages.map(item=>(
+          <ImageCard
+            key={item.id}
+            {...item}
+          />
+        ))}
       </div>
     </section>
   )
