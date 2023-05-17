@@ -14,8 +14,11 @@ import DestinationCard from "./card/DestinationCard"
 import PackageCard from "./card/PackageCard"
 import FeatureCard from "./card/FeatureCard"
 
+import QuickInfoCard from "./package/QuickInfoCard"
+
 export {
   Navbar, Banner, ClientOnly, Footer, Container, Loader, Heading,
   CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo, FeatureCard,
   Button,
+  QuickInfoCard,
 }

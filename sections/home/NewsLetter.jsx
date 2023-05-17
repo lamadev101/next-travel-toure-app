@@ -14,7 +14,7 @@ const NewsLetter = () => {
             <button className="w-[20%] h-full bg-black text-orange-500 hover:bg-orange-500 hover:text-black">SUBSCRIBE</button>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-4 flex-1 ">
+        <div className="grid grid-cols-2 gap-4 flex-1 ">
           {Featurelist.map(item => (
               <div key={item.id}>
                 <FeatureCard
