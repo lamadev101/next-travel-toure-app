@@ -1,5 +1,7 @@
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa"
 import { IconBtn } from ".."
+import {HiOutlinePhone , HiOutlineMail} from "react-icons/hi"
+
 
 const Footer = () => {
   return (
@@ -23,8 +25,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-white">
-          <h1 className="font-bold ">Quick Link</h1>
-          <div>
+          <h1 className="font-bold  text-3xl">Quick Link</h1>
+          <div className="px-3 py-3">
             <ul>
 
               <li className=" hover:text-orange-500 "> About us</li>
@@ -53,10 +55,22 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" flex md:flex-row flex-col justify-around items-start font-bold bg-gray-700 text-white p-4" >
-        <h1 >Contact Us </h1>
-        <h1> 0145667600</h1>
-        <h1> travelwithNF@gmail.com</h1>
+      <div className="  flex md:flex-row flex-col justify-around items-center font-bold bg-gray-700 text-white p-4" >
+        <h1 className="text-3xl"  >  Contact Us : </h1>
+        <div  className="flex items-center">  
+      <HiOutlinePhone/>
+      <span>
+        
+          0145667600
+      </span>
+          </div >
+        <div className="flex items-center"> 
+          < HiOutlineMail className=""/>
+          
+          stravelwithNF@gmail.com 
+            </div>
+        
+
       </div>
       <div className="flex md:flex-row flex-col justify-around items-start  p-5 bg-gray-800 text-white font-semibold">
         <h1 className="text-white py-5">Copyright 2023 FNTravels </h1>

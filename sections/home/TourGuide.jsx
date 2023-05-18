@@ -1,7 +1,7 @@
 import { GuidProfileCard, Heading } from "@/components"
 import { TourGuideList } from "@/constant/data"
 
-const TourGuide = () => {
+const TourGuide = ( {img,name}) => {
   return (
     <section>
       <div className="flex items-center justify-center">
