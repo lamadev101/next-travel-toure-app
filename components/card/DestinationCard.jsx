@@ -1,13 +1,10 @@
 'use client'
-import { useRouter } from 'next/navigation'
-
-
 import Link from "next/link"
 
 const DestinationCard = ({ id, img, place }) => {
-  const router = useRouter()
+  
   return (
-    // <Link href={`/destination-details/${id}`}>
+     <Link href={`/destination-details/${id}`}>
       <div className="flex   bg-white  group" >
         <div className="group relative cursor-pointer  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <div>
@@ -18,8 +15,7 @@ const DestinationCard = ({ id, img, place }) => {
           <div className="absolute inset-0 flex translate-y-[30%] flex-col items-center justify-center px-9 text-center transition-all duration- group-hover:translate-y-0">
             <h1 className=" text-3xl font-bold text-white">{place}</h1>
 
-            <button className=" rounded-full bg-orange-500 py-2 px-3.5  justify-end font-com text-sm capitalize text-white hidden group-hover:block "
-              onClick={() => router.push(`/destination-details/${id}`)} >
+            <button className=" rounded-full bg-orange-500 py-2 px-3.5  justify-end font-com text-sm capitalize text-white hidden group-hover:block " >
               <span>
                 See More Photos
               </span>
@@ -27,7 +23,7 @@ const DestinationCard = ({ id, img, place }) => {
           </div>
         </div>
       </div>
-    // </Link>
+     </Link>
   )
 }
 
