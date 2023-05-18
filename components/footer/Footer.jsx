@@ -1,5 +1,7 @@
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa"
 import { IconBtn } from ".."
+import {HiOutlinePhone , HiOutlineMail} from "react-icons/hi"
+
 
 const Footer = () => {
   return (
@@ -23,8 +25,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-white">
-          <h1 className="font-bold  text-4xl">Quick Link</h1>
-          <div>
+          <h1 className="font-bold  text-3xl">Quick Link</h1>
+          <div className="px-3 py-3">
             <ul>
 
             <li className=" hover:text-orange-500 "> About us</li>
@@ -39,8 +41,8 @@ const Footer = () => {
         </div>
         <div className="text-white">
           
-          <h1 className="font-bold text-4xl">Tour Type</h1>
-          <div >
+          <h1 className="font-bold text-3xl">Tour Type</h1>
+          <div  className="px-3 py-3">
             <ul>
 
             <li className="hover:text-orange-500 "> Wild & Adventure Tour</li>
