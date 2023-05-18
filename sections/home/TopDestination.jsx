@@ -3,7 +3,7 @@ import { DestinationItems } from "@/constant/data"
 
 const TopDestination = () => {
   return (
-    <section className="mb-8">
+    <section className="mb-8 px-4 md:px-0">
       <div className="md:ml-20">
         <Heading
           title="Explore Top Destination"
@@ -12,7 +12,7 @@ const TopDestination = () => {
       </div>
 
       {/* Top destination card */}
-      <div className="flex items-center gap-2 flex-row md:flex-col">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-2 px-2">
         {DestinationItems.slice(3,7).map(item=>(
           <DestinationCard
             key={item.id}

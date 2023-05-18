@@ -13,7 +13,7 @@ const TourGuide = ( {img,name}) => {
       </div>
 
       {/* Tour Guide Profile */}
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {TourGuideList.map(item=>(
           <GuidProfileCard
             key={item.id}

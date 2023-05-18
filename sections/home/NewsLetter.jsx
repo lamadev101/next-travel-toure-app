@@ -3,8 +3,8 @@ import { Featurelist } from "@/constant/data"
 
 const NewsLetter = () => {
   return (
-    <section className="newsLetterBg p10" >
-      <div className="flex items-center flex-row md:flex-col gap-20">
+    <section className="newsLetterBg px-8 py-12 md:p-10" >
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
 
         {/* Left Side */}
         <div className="">
