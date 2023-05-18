@@ -4,7 +4,7 @@ import { AiOutlineCalendar } from "react-icons/ai"
 import React from 'react'
 const BlogCard = ({ id, img, category,authername,date,title }) => {
   return (
-    <div className="bg-white shadow-lg rounded-md overflow-hidden group w-[400px]">
+    <div className="bg-white shadow-lg rounded-md overflow-hidden group">
       <div className="relative ">
         <img
           src={img}

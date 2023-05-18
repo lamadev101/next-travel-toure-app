@@ -4,7 +4,7 @@ import { Packages } from "@/constant/data"
 const PopularPackage = () => {
   return (
     <Container>
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col md:flex-row items-center justify-between">
         <Heading
           title="Popular Tour Package"
           subtitle="Explore our top-rated tour packages, curated for an unforgettable travel experience that suits your preferences and budget."
