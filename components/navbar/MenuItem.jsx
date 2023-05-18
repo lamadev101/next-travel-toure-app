@@ -8,7 +8,6 @@ const MenuItem = ({ label, link }) => {
   const { pathname } = router;
 
   const isActive = (path) => {
-    console.log("🚀 ~ file: MenuItem.jsx:11 ~ isActive ~ path:", path)
     return path === pathname;
   }
 
