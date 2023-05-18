@@ -9,15 +9,6 @@ import TravelPlan from './TravelPlan'
 import TourGallary from './TourGallary'
 import Location from './Location'
 
-
-
-// const PackageSections = [
-//   {id: 0, key: 'information', section: <Information/>},
-//   {id: 1, key: 'travel-plan', section: <TravelPlan/>},
-//   {id: 2, key: 'tour-gallary', section: <TourGallary/>},
-//   {id: 3, key: 'location', section: <Location/>},
-// ]
-
 const TabSection = [<Information/>, <TravelPlan/>,<TourGallary/>, <Location/>]
 
 const PackageDesc = () => {

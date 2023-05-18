@@ -9,7 +9,7 @@ const PackageCardDemo = ({id, img, title, duration, price}) => {
   const router = useRouter()
 
   return (
-    <div className="bg-white shadow-lg rounded-md overflow-hidden">
+    <div className="bg-white shadow-lg rounded-md overflow-hidden group">
       <div className="relative">
         <Image
           src={img}
@@ -24,10 +24,10 @@ const PackageCardDemo = ({id, img, title, duration, price}) => {
       </div>
 
       <div className="px-4 py-2 mt-3 space-y-4">
-        <p className="font-bold">{title}</p>
+        <h1 className="font-bold mt-1">{title}</h1>
         <div className="flex items-center gap-3">
           <button 
-            className="border-[1px] border-orange-500 hover:bg-orange-500 hover:text-white px-2 py-1 rounded-md flex items-center justify-between"
+            className="border-[1px] border-orange-500 group-hover:bg-orange-500 group-hover:text-white px-2 py-1 rounded-md flex items-center justify-between gap-2"
             onClick={()=>router.push(`/package-details/${id}`)}  
           >
             <span>Book Now</span>
