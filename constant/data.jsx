@@ -220,7 +220,7 @@ export const CategoryList = [
   }
 ]
 
-export const PackageQuickInfo = [
+export const Package = [
   {
     id: 1, 
     title: "Duration",

@@ -19,7 +19,7 @@ import BlogCard from "./card/BlogCard"
 import CategoryItemCard from "./card/CategoryItemCard"
 import DestinationCard from "./card/DestinationCard"
 import FeatureCard from "./card/FeatureCard"
-import QuickInfoCard from "./package/QuickInfoCard"
+import Card from "./package/Card"
 import ImageCard from "./card/ImageCard"
 import GuidProfileCard from "./card/GuidProfileCard"
 
@@ -27,7 +27,7 @@ import GuidProfileCard from "./card/GuidProfileCard"
 export {
   Navbar, Banner, ClientOnly, Footer, Container, Loader, Heading,
 
-  CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo, FeatureCard, ImageCard, GuidProfileCard, PackageOfferCard,QuickInfoCard,
+  CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo, FeatureCard, ImageCard, GuidProfileCard, PackageOfferCard,Card,
 
   Button, IconBtn, SwitchBtn,BlogCard,
 }
