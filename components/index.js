@@ -23,6 +23,9 @@ import Card from "./package/Card"
 import ImageCard from "./card/ImageCard"
 import GuidProfileCard from "./card/GuidProfileCard"
 
+import ContactUsForm from "./form/ContactUsForm"
+import BookNowForm from "./form/BookNowForm"
+
 
 export {
   Navbar, Banner, ClientOnly, Footer, Container, Loader, Heading,
@@ -30,4 +33,6 @@ export {
   CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo, FeatureCard, ImageCard, GuidProfileCard, PackageOfferCard,Card,
 
   Button, IconBtn, SwitchBtn,BlogCard,
+
+  ContactUsForm, BookNowForm,
 }
