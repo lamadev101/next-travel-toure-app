@@ -264,6 +264,7 @@ export const TourGuideList = [
     name: "Deepika DC"
   }
 ]
+
 export const BlogItems=[
   {
     id:1,
