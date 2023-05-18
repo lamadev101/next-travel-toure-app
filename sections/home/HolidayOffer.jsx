@@ -12,8 +12,8 @@ const HolidayOffer = () => {
         />
       </div>
       {/* holiday offers */}
-      <div className="grid grid-cols-3 gap-8">
-        {Packages.map(item=>{
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {Packages.slice(4,7).map(item=>{
           return(
             <div key={item.id}>
               <PackageCardDemo {...item}/>

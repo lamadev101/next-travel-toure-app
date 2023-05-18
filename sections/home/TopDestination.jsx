@@ -12,8 +12,8 @@ const TopDestination = () => {
       </div>
 
       {/* Top destination card */}
-      <div className="flex items-center gap-2 flex-nowrap">
-        {DestinationItems.map(item=>(
+      <div className="flex items-center gap-2 flex-row md:flex-col">
+        {DestinationItems.slice(3,7).map(item=>(
           <DestinationCard
             key={item.id}
             {...item}

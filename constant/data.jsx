@@ -264,3 +264,12 @@ export const TourGuideList = [
     name: "Deepika DC"
   }
 ]
+
+export const TestimonialsList = [
+  {
+    id: 1,
+    img: "",
+    name: "Lory Page",
+    voice: "",
+  }
+]

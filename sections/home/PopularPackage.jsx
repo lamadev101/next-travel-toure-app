@@ -17,8 +17,8 @@ const PopularPackage = () => {
       </div>
 
       {/* popular pakages */}
-      <div className="grid grid-cols-3 gap-8">
-        {Packages.map(item=>{
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {Packages.slice(0,4).map(item=>{
           return(
             <div key={item.id}>
               <PackageCardDemo {...item}/>
