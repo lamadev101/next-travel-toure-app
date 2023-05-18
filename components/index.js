@@ -13,6 +13,8 @@ import SwitchBtn from "./button/SwitchBtn"
 import PackageCardDemo from "./card/PackageCardDemo"
 import PackageCard from "./card/PackageCard"
 import PackageOfferCard from "./card/PackageOfferCard"
+import BlogCard from "./card/BlogCard"
+
 
 import CategoryItemCard from "./card/CategoryItemCard"
 import DestinationCard from "./card/DestinationCard"
@@ -27,5 +29,5 @@ export {
 
   CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo, FeatureCard, ImageCard, GuidProfileCard, PackageOfferCard,QuickInfoCard,
 
-  Button, IconBtn, SwitchBtn,
+  Button, IconBtn, SwitchBtn,BlogCard,
 }

@@ -264,3 +264,59 @@ export const TourGuideList = [
     name: "Deepika DC"
   }
 ]
+export const BlogItems=[
+  {
+    id:1,
+    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
+    category: " Travel",
+    authername: " Zenit Thapa",
+    date: " 23 dec, 2022",
+    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    
+  },
+  {
+    id:2,
+    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
+    category: " Travel",
+    authername: " Zenit Thapa",
+    date: " 23 dec, 2022",
+    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    
+  },
+  {
+    id:3,
+    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
+    category: " Travel",
+    authername: " Zenit Thapa",
+    date: " 23 dec, 2022",
+    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    
+  },
+  {
+    id:4,
+    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
+    category: " Travel",
+    authername: " Zenit Thapa",
+    date: " 23 dec, 2022",
+    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    
+  },
+  {
+    id:5,
+    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
+    category: " Travel",
+    authername: " Zenit Thapa",
+    date: " 23 dec, 2022",
+    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    
+  },
+  {
+    id:6,
+    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
+    category: " Travel",
+    authername: " Zenit Thapa",
+    date: " 23 dec, 2022",
+    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    
+  },
+]

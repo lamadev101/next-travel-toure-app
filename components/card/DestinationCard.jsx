@@ -1,9 +1,12 @@
-const DestinationCard = ({ img, place }) => {
+import Link from "next/link"
+
+const DestinationCard = ({  id, img, place }) => {
 
 
   return (
 
 
+    <Link href={ `/destination-details/${id}`}>
     <div className="flex   bg-white  group" >
       <div className="group relative cursor-pointer  overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
         <div>
@@ -18,6 +21,7 @@ const DestinationCard = ({ img, place }) => {
         </div>
       </div>
     </div>
+    </Link>
   )
 }
 
