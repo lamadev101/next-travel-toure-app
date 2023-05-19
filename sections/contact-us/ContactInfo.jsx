@@ -3,7 +3,9 @@ import React from 'react'
 const ContactInfo = () => {
   return (
 
-    <section className="flex flex-cols-2 mt-20  mb-20 gap-10 bg-slate-50 shadow-md">
+    <section>
+      <div
+     className="flex flex-cols-2 mt-20  mb-20 gap-10 bg-slate-50 shadow-md">
       <div className='w-[550px]'>
         <img className="h-[600px] w-full object-cover rounded-md"
           src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2669&q=80" alt=" Loading" />
@@ -34,7 +36,16 @@ const ContactInfo = () => {
           </div>
         </div>
       </div>
+      </div>
+
+      <div className='w-[600px] h-[600px] bg-white shadow-md'>
+        <h1 className='font-semibold px-5 py-6 textt-3xl'> Leave Your Comment</h1>
+
+      </div>
+      
     </section>
+
+    
   )
 }
 
