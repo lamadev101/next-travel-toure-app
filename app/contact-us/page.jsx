@@ -1,5 +1,5 @@
 import { Banner, Container } from "@/components"
-import ContactInfo from "@/sections/contact-us/ContactInfo"
+import { ContactInfo, Map } from "@/sections/contact-us"
 
 const ContactUs = () => {
   return (
@@ -12,6 +12,7 @@ const ContactUs = () => {
       
       <Container>
         <ContactInfo />
+        <Map/>
       </Container>
     </main>
   )
