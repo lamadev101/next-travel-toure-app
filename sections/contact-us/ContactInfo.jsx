@@ -1,3 +1,4 @@
+import { ContactUsForm } from '@/components'
 import React from 'react'
 
 const ContactInfo = () => {
@@ -38,8 +39,11 @@ const ContactInfo = () => {
       </div>
       </div>
 
-      <div className='w-[600px] h-[600px] bg-white shadow-md'>
-        <h1 className='font-semibold px-5 py-6 textt-3xl'> Leave Your Comment</h1>
+      <div className='w-full bg-white shadow-md group p-8'>
+        <h1 className='font-semibold px-5 py-6 text-2xl ml-6'> Get a free Keystroke quote now</h1>
+        <h1 className='ml-12'> Your email address will not be published. Required fields are marked *</h1>
+        <ContactUsForm/>
+
 
       </div>
       

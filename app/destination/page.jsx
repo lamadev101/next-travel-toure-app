@@ -10,7 +10,7 @@ const Destination = () => {
         bgImg="https://images.unsplash.com/photo-1571401835393-8c5f35328320?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmVwYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
       />
 
-      {/* <Container> 
+       <Container> 
         <div className=' grid grid-cols-4 gap-8'>
           {DestinationItems.map(item => {
             return (
@@ -23,7 +23,7 @@ const Destination = () => {
 
 
         </div>
-        </Container>*/}
+        </Container>
     </main>
   )
 }
