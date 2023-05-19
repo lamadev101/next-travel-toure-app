@@ -1,8 +1,11 @@
+import { DestinationCard } from '@/components'
 import React from 'react'
 
 const DestinationDetails = () => {
   return (
-    <div>DestinationDetails</div>
+    <div>
+     destination
+    </div>
   )
 }
 

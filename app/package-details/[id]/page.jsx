@@ -19,7 +19,7 @@ const PackageDetails = () => {
             <div className="grid grid-cols-4 gap-4">
               {PackageQuickInfo.map(item => {
                 return (
-                  <QuickInfoCard
+                  <Card
                     key={item.id}
                     {...item}
                   />

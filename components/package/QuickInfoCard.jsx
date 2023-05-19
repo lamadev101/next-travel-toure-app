@@ -1,5 +1,5 @@
 
-const QuickInfoCard = ({icon, title, subtitle}) => {
+const Card = ({icon, title, subtitle}) => {
   return (
     <div className="flex items-center gap-2">
       <div className="text-orange-500 text-3xl">{icon}</div>
@@ -11,4 +11,4 @@ const QuickInfoCard = ({icon, title, subtitle}) => {
   )
 }
 
-export default QuickInfoCard
+export default Card

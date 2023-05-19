@@ -220,7 +220,7 @@ export const CategoryList = [
   }
 ]
 
-export const PackageQuickInfo = [
+export const Package = [
   {
     id: 1, 
     title: "Duration",
@@ -250,18 +250,18 @@ export const PackageQuickInfo = [
 export const TourGuideList = [
   {
     id: 1,
-    pic: "https://images.unsplash.com/photo-1607639106901-28314a0a622e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGltcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    name: "Jonny Smith"
+    pic: "https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    name: "Jennie Smith"
   },
   {
     id: 2,
-    pic: "https://images.unsplash.com/photo-1607195154396-abce3f65c3ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGltcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    pic: "https://images.unsplash.com/photo-1557053908-4793c484d06f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
     name: "Adwin Biden"
   },
   {
     id: 3,
-    pic: "https://images.unsplash.com/photo-1610888893825-91a0444e7fec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGltcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    name: "Deepika DC"
+    pic: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    name: "Deepak DC"
   }
 ]
 
@@ -269,7 +269,7 @@ export const BlogItems=[
   {
     id:1,
     img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
-    category: " Travel",
+    category: "  History",
     authername: " Zenit Thapa",
     date: " 23 dec, 2022",
     title:"Michael Angelo's painting on top of the Palace of Versailles"
@@ -277,47 +277,47 @@ export const BlogItems=[
   },
   {
     id:2,
-    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
-    category: " Travel",
-    authername: " Zenit Thapa",
-    date: " 23 dec, 2022",
-    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    img:"https://images.unsplash.com/photo-1577720580479-7d839d829c73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1384&q=80",
+    category: " Nature",
+    authername: "William Andrews Nesfield",
+    date: " 1849",
+    title:"Near Brodick, Isle Of Arran,"
     
   },
   {
     id:3,
-    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
-    category: " Travel",
+    img:"https://images.unsplash.com/photo-1547891654-e66ed7ebb968?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    category: "Graffiti ",
     authername: " Zenit Thapa",
-    date: " 23 dec, 2022",
+    date: " 23 dec, 2020",
     title:"Michael Angelo's painting on top of the Palace of Versailles"
     
   },
   {
     id:4,
-    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
+    img:"https://images.unsplash.com/photo-1579541814924-49fef17c5be5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=670&q=80",
     category: " Travel",
-    authername: " Zenit Thapa",
+    authername: " David Roberts",
     date: " 23 dec, 2022",
-    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    title:"Alcazar, Segovia, Spain"
     
   },
   {
     id:5,
-    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
+    img:"https://images.unsplash.com/photo-1578301978018-3005759f48f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2644&q=80",
     category: " Travel",
-    authername: " Zenit Thapa",
+    authername: "  John Warwick Smith",
     date: " 23 dec, 2022",
-    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    title:"Near Glarus, Switzerland"
     
   },
   {
     id:6,
-    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
-    category: " Travel",
-    authername: " Zenit Thapa",
-    date: " 23 dec, 2022",
-    title:"Michael Angelo's painting on top of the Palace of Versailles"
+    img:"https://images.unsplash.com/photo-1575995872537-3793d29d972c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=848&q=80",
+    category: " Art",
+    authername: "Rijksmuseum ",
+    date: " 2 dec, 2012",
+    title:"Five Prints of Flowers in Glass Vases"
     
   },
 ]

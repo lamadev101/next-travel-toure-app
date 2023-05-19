@@ -19,7 +19,6 @@ import BlogCard from "./card/BlogCard"
 import CategoryItemCard from "./card/CategoryItemCard"
 import DestinationCard from "./card/DestinationCard"
 import FeatureCard from "./card/FeatureCard"
-import QuickInfoCard from "./package/QuickInfoCard"
 import ImageCard from "./card/ImageCard"
 import GuidProfileCard from "./card/GuidProfileCard"
 
@@ -30,7 +29,7 @@ import BookNowForm from "./form/BookNowForm"
 export {
   Navbar, Banner, ClientOnly, Footer, Container, Loader, Heading,
 
-  CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo, FeatureCard, ImageCard, GuidProfileCard, PackageOfferCard,QuickInfoCard,
+  CategoryItemCard, DestinationCard, PackageCard, PackageCardDemo, FeatureCard, ImageCard, GuidProfileCard, PackageOfferCard,
 
   Button, IconBtn, SwitchBtn,BlogCard,
 
