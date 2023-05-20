@@ -15,7 +15,7 @@ const PackageDetails = () => {
       <Container>
         <div className="flex gap-4">
           <div className="flex-auto w-60 space-y-6">
-            {/* Quick Information of package */}
+            {/* Quick Information of package 
             <div className="grid grid-cols-4 gap-4">
               {PackageQuickInfo.map(item => {
                 return (
@@ -27,7 +27,7 @@ const PackageDetails = () => {
               })}
             </div>
 
-            {/* Package main image */}
+             Package main image */}
             <div>
               <img
                 src="https://images.unsplash.com/photo-1584884789751-68dd2836ada1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
