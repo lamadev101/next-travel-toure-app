@@ -179,71 +179,71 @@ export const DestinationItems = [
   },
 ]
 
-import {FaClock, FaHeart, FaMountain, FaRegKiss, FaUmbrellaBeach, FaUser, FaUsers} from 'react-icons/fa'
-import {GiFootprint} from 'react-icons/gi'
+import { FaClock, FaHeart, FaMountain, FaRegKiss, FaUmbrellaBeach, FaUser, FaUsers } from 'react-icons/fa'
+import { GiFootprint } from 'react-icons/gi'
 
 export const CategoryList = [
   {
-    id: 1, 
+    id: 1,
     title: "Adventure",
-    icon: <FaMountain/>
+    icon: <FaMountain />
   },
   {
-    id: 2, 
+    id: 2,
     title: "Group Tour",
-    icon: <FaUsers/>
+    icon: <FaUsers />
   },
   {
-    id: 3, 
-    title: "Couple Tour",  
-    icon: <FaHeart/>
+    id: 3,
+    title: "Couple Tour",
+    icon: <FaHeart />
   },
   {
-    id: 4, 
-    title: "Single Tour", 
-    icon: <FaUser/>
+    id: 4,
+    title: "Single Tour",
+    icon: <FaUser />
   },
   {
-    id: 5, 
+    id: 5,
     title: "Honeymoon",
-    icon: <FaRegKiss/>
+    icon: <FaRegKiss />
   },
   {
-    id: 6, 
+    id: 6,
     title: "Sea Beach",
-    icon: <FaUmbrellaBeach/>
+    icon: <FaUmbrellaBeach />
   },
   {
-    id: 7, 
+    id: 7,
     title: "Mountain Tour",
-    icon: <FaMountain/>
+    icon: <FaMountain />
   }
 ]
 
 export const Package = [
   {
-    id: 1, 
+    id: 1,
     title: "Duration",
     subtitle: "4 days",
-    icon: <FaClock/>
+    icon: <FaClock />
   },
   {
-    id: 2, 
+    id: 2,
     title: "Tour Type",
     subtitle: "Daily Tour",
-    icon: <GiFootprint/>
+    icon: <GiFootprint />
   },
   {
     id: 3,
     title: "Group Size",
     subtitle: "30 people",
-    icon: <FaUsers/>
+    icon: <FaUsers />
   },
   {
     id: 4,
     title: "Tour Guide",
     subtitle: "5 people",
-    icon: <FaUser/>
+    icon: <FaUser />
   }
 ]
 
@@ -265,78 +265,79 @@ export const TourGuideList = [
   }
 ]
 
-export const BlogItems=[
+export const BlogItems = [
   {
-    id:1,
-    img:"https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
+    id: 1,
+    img: "https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80",
     category: "  History",
     authername: " Zenit Thapa",
     date: " 23 dec, 2022",
-    title:"Michael Angelo's painting on top of the Palace of Versailles"
-    
+    title: "Michael Angelo's painting on top of the Palace of Versailles"
+
   },
   {
-    id:2,
-    img:"https://images.unsplash.com/photo-1577720580479-7d839d829c73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1384&q=80",
+    id: 2,
+    img: "https://images.unsplash.com/photo-1577720580479-7d839d829c73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1384&q=80",
     category: " Nature",
     authername: "William Andrews",
     date: " 1849",
-    title:"Near Brodick, Isle Of Arran,"
-    
+    title: "Near Brodick, Isle Of Arran,"
+
   },
   {
-    id:3,
-    img:"https://images.unsplash.com/photo-1547891654-e66ed7ebb968?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    id: 3,
+    img: "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     category: "Graffiti ",
     authername: "Zenit Thapa",
     date: " 23 dec, 2020",
-    title:"Michael Angelo's painting on top of the Palace of Versailles"
-    
+    title: "Michael Angelo's painting on top of the Palace of Versailles"
+
   },
   {
-    id:4,
-    img:"https://images.unsplash.com/photo-1579541814924-49fef17c5be5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=670&q=80",
+    id: 4,
+    img: "https://images.unsplash.com/photo-1579541814924-49fef17c5be5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=670&q=80",
     category: " Travel",
     authername: " David Roberts",
     date: " 23 dec, 2022",
-    title:"Alcazar, Segovia, Spain"
-    
+    title: "Alcazar, Segovia, Spain"
+
   },
   {
-    id:5,
-    img:"https://images.unsplash.com/photo-1578301978018-3005759f48f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2644&q=80",
+    id: 5,
+    img: "https://images.unsplash.com/photo-1578301978018-3005759f48f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2644&q=80",
     category: " Travel",
     authername: "  John Warwick Smith",
     date: " 23 dec, 2022",
-    title:"Near Glarus, Switzerland"
-    
+    title: "Near Glarus, Switzerland"
+
   },
   {
-    id:6,
-    img:"https://images.unsplash.com/photo-1575995872537-3793d29d972c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=848&q=80",
+    id: 6,
+    img: "https://images.unsplash.com/photo-1575995872537-3793d29d972c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=848&q=80",
     category: " Art",
     authername: "Rijksmuseum ",
     date: " 2 dec, 2012",
-    title:"Five Prints of Flowers in Glass Vases"
+    title: "Five Prints of Flowers in Glass Vases"
   },
 ]
- export const TestimonalsItems = [
+
+export const TestimonalsItems = [
   {
-        id: 1,
-        name: "Jennie Smith",
-        text: "Lorem ips  um dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",  
-        image:" https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    id: "01",
+    name: "Jennie Smith",
+    text: "Lorem ips  um dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    image: " https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
-    id: 02,
+    id: "02",
     name: "Karma Ghising",
-    text: "Lorem ips  um dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",  
-    image:" https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-},
-{
-  id: 03,
-  name: "Liza Shrestha",
-  text: "Lorem ips  um dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",  
-  image:" https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-},
+    text: "Lorem ips  um dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    image: " https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    id: "03",
+    name: "Liza Shrestha",
+    text: "Lorem ips  um dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    image: " https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
 ]
