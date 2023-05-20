@@ -7,6 +7,7 @@ const ContactInfo = () => {
         <div className='w-[550px]'>
           <img className="h-[600px] w-full object-cover rounded-md"
             src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2669&q=80" 
+            alt="person"
           />
         </div>
         <div className=' group  w-[550px]'>

@@ -12,7 +12,7 @@ const Banner = ({title, bgImg}) => {
       />
       <div className="w-full h-full bg-black bg-opacity-40 hover:opacity-60 absolute top-0 left-0 flex items-center justify-center">
         <div>
-          <h1 className="text-[60px] text-white font-extrabold">{title}</h1>
+          <h1 className="text-[30px] md:text-[60px] text-white font-extrabold">{title}</h1>
           <div className="flex items-center justify-center gap-4 text-xl text-white">
             Home <HiChevronDoubleRight className="text-orange-500"/> {title}
           </div>

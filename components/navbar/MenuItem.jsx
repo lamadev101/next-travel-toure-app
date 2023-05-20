@@ -1,11 +1,10 @@
 "use client"
 
 import Link from "next/link"
-import { useRouter } from "next/navigation";
+import { usePathname } from 'next/navigation';
 
-const MenuItem = ({ label, link }) => {
-  const router = useRouter()
-  const { pathname } = router;
+const MenuItem = ({ label, link, onClick }) => {
+  const pathname = usePathname();
 
   const isActive = (path) => {
     return path === pathname;
@@ -13,7 +12,7 @@ const MenuItem = ({ label, link }) => {
 
   return (
     <Link href={link}>
-      <div className={isActive(link) ? 'text-orange-500' : ''}>
+      <div className={isActive(link) ? 'text-orange-500' : ''}  onClick={onClick}>
         {label}
       </div>
     </Link>

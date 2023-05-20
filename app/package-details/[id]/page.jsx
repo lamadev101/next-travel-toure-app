@@ -17,14 +17,14 @@ const PackageDetails = () => {
           <div className="flex-auto w-60 space-y-6">
             {/* Quick Information of package */}
             <div className="grid grid-cols-4 gap-4">
-              {PackageQuickInfo.map(item => {
+              {/* {PackageQuickInfo?.map(item => {
                 return (
                   <Card
                     key={item.id}
                     {...item}
                   />
                 )
-              })}
+              })} */}
             </div>
 
             {/* Package main image */}

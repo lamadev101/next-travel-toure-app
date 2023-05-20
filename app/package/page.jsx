@@ -10,16 +10,16 @@ const Package = () => {
       />
 
       <Container>
-      <div className=' grid grid-cols-3 gap-8'>
-        {Packages.map(item => {
-          return (
-            <PackageCard
-              key={item.id}
-              {...item} />
-          )
-        })
-        }
-      </div>
+        <div className=' grid grid-cols-1 md:grid-cols-3 gap-8'>
+          {Packages.map(item => {
+            return (
+              <PackageCard
+                key={item.id}
+                {...item} />
+            )
+          })
+          }
+        </div>
       </Container>
     </main>
   )

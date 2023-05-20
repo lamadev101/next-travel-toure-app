@@ -9,8 +9,7 @@ const BlogCard = ({ id, img, category,authername,date,title }) => {
         <img
           src={img}
           alt="palce image"
-
-          className="object-cover  w-full h-[300px] hover:scale-110 duration-100 rounded-md"
+          className="object-cover  w-full h-[300px] hover:scale-x-110 transition duration-100 rounded-md"
         />
         <div className="text-white bg-orange-500 px-4 py-2 w-[max-content] absolute left-8 top-2  justify-start align-top   hover:bg-gray-500" >
           <span className=" hover:scale-110 duration-100  a"> {category}</span>
