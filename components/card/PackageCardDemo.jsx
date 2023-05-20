@@ -16,7 +16,7 @@ const PackageCardDemo = ({id, img, title, duration, price}) => {
           alt="palce image"
           width="100"
           height="100"
-          className="object-cover w-full h-[150px] hover:scale-110 duration-100"
+          className="object-cover w-full h-[150px] hover:scale-110 transition duration-100"
         />
         <div className="bg-orange-500 px-4 py-2 w-[max-content] absolute left-12 -bottom-4">
           <span className="text-white">{duration}</span>

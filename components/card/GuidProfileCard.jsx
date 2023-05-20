@@ -11,8 +11,8 @@ const GuidProfileCard = ({pic, name ,}) => {
         alt={name} 
         className="object-cover w-full h-[400px]"
       />
-        <div className="absolute inset-0 flex  gap-3 translate-y-[10%] flex-col   justify-end px-9 text-center transition-all duration- group-hover:translate-y-0">
-          <div className=" rounded-full bg-gray-700   space-x-4  text-white hidden group-hover:block ">
+        <div className="absolute inset-0 flex  gap-3 translate-y-[10%] flex-col   justify-end px-9 text-center transition-all duration-100 group-hover:translate-y-0">
+          <div className=" rounded-full bg-gray-700 space-x-4  text-white hidden group-hover:block py-2 ">
           <IconBtn
               link="https://github.com/"
               icon = {<FaInstagram/>}

@@ -279,7 +279,7 @@ export const BlogItems=[
     id:2,
     img:"https://images.unsplash.com/photo-1577720580479-7d839d829c73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1384&q=80",
     category: " Nature",
-    authername: "William Andrews Nesfield",
+    authername: "William Andrews",
     date: " 1849",
     title:"Near Brodick, Isle Of Arran,"
     
@@ -288,7 +288,7 @@ export const BlogItems=[
     id:3,
     img:"https://images.unsplash.com/photo-1547891654-e66ed7ebb968?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     category: "Graffiti ",
-    authername: " Zenit Thapa",
+    authername: "Zenit Thapa",
     date: " 23 dec, 2020",
     title:"Michael Angelo's painting on top of the Palace of Versailles"
     
@@ -318,6 +318,5 @@ export const BlogItems=[
     authername: "Rijksmuseum ",
     date: " 2 dec, 2012",
     title:"Five Prints of Flowers in Glass Vases"
-    
   },
 ]

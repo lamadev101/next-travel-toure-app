@@ -2,6 +2,7 @@ import { ClientOnly, Footer, Navbar } from '@/components'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import CategoryModal from '@/modals/CategoryModal'
+import MobileViewMenuModal from '@/modals/MobileViewMenuModal'
 // import { CategoryModal } from '@/modals'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <ClientOnly>
           <Navbar/>
           <CategoryModal/>
+          <MobileViewMenuModal/>
         </ClientOnly>
         <div className="">
         {children}

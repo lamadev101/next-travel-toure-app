@@ -14,8 +14,7 @@ const ContactUsForm = () => {
     // Handle form submission logic here
   };
   return (
-    <div className=''>
-      <form onSubmit={handleSubmit} className="p-8">
+      <form onSubmit={handleSubmit}>
         <div className='flex flex-col-2 gap-20 '>
           <div className='w-full'>
             <label htmlFor=""> Name</label>
@@ -28,7 +27,6 @@ const ContactUsForm = () => {
           </div>
           <div className='w-full'>
             <label htmlFor=""> Email</label>
-
             <input
               className="w-full focus:border-orange-600 rounded-lg p-3 mt-5 shadow-lg"
               placeholder="Your Email"
@@ -36,17 +34,15 @@ const ContactUsForm = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-
         </div>
         <div>
-
           <textarea
             className="w-full focus:border-orange-600 rounded-lg p-3 mt-14 shadow-md"
             rows="6"
             placeholder="Write Message..."
             value={comment}
             onChange={(e) => setComment(e.target.value)}
-          ></textarea>
+          />
           <button
             type="submit"
             className="mt-6 px-10 py-3 text-white bg-orange-600 hover:bg-black font-bold rounded-2xl hover:text-orange-600">
@@ -54,7 +50,6 @@ const ContactUsForm = () => {
           </button>
         </div>
       </form>
-    </div>
   )
 }
 
